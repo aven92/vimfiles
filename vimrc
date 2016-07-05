@@ -20,6 +20,7 @@
     set title
     set noautoindent
     set ruler
+    set paste
     set shortmess=aoOTI
     set showmode
     set splitbelow
