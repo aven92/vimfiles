@@ -177,10 +177,25 @@
         let NERDChristmasTree = 1
         let NERDTreeChDirMode = 2
         let NERDTreeMapJumpFirstChild = 'gK'
+
+        " 显示行号
+        let NERDTreeShowLineNumbers=0
+        let NERDTreeAutoCenter=1
+        " 是否显示隐藏文件
+        let NERDTreeShowHidden=0
+        " 设置宽度
+        let NERDTreeWinSize=23
+        " 在终端启动vim时，共享NERDTree
+        let g:nerdtree_tabs_open_on_console_startup=1
+        " 忽略一下文件的显示
+        let NERDTreeIgnore=['\.pyc','\~$','\.swp']
+        " 显示书签列表
+        let NERDTreeShowBookmarks=1
     " }}}
     
     " Tagbar {{{
         nnoremap <F9> :TagbarToggle<CR>
+        let g:tagbar_width=23
     " }}}
 
     " Unite {{{
